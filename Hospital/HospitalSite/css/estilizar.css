@@ -1,0 +1,28 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    /* background-color: beige; */
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth; /* Adiciona rolagem suave para a página inteira */
+}
+
+:root {
+    --cor1: #2C56DC;
+    --cor2: #485686;
+    --cor3: #40475C;
+    --cor4: #415BB1;
+    --cor5: #2C2E33;
+}

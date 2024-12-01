@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Guarulhos</title>
+    <link rel="stylesheet" href="style_login.css">
+    <link rel="shortcut icon" href="/HospitalSite/favicon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <video autoplay loop muted id="background-video">
+        <source src="mp4/Background.mp4" type="video/mp4">
+    </video>
+
+    <div id="logo">
+            <img src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/12/logo-1.png?w=219" alt="Logo da prefeitura de Guarulhos">
+    </div>
+
+    <main>
+        <form name="form1" method="post" action="registrar.jsp">
+
+            <div id="primeiro-bloco">
+                <label for="txtNome">Nome:</label>
+                <input type="text" id="txtNome" name="txtNome" placeholder="Primeiro Nome..." required> <br><br>
+
+                <label for="txtIdade">Idade:</label>
+                <input type="text" id="txtIdade" name="txtIdade"  placeholder="Sua Idade..." required> <br><br>
+
+                <label for="txtEmail">E-mail:</label>
+                <input type="email" id="txtEmail" name="txtEmail"  placeholder="Seu Email..." required> <br><br>
+
+                <label for="txtSenha">Senha:</label>
+                <input type="password" id="txtSenha" name="txtSenha"  placeholder="Sua Senha...." required> <br><br>
+            </div>
+
+            <div id="segundo-bloco">
+                <a href="http://localhost:8080/Hospital/contaexistente.html">Já tenho Conta</a>
+                <input type="submit" value="Registrar">
+            </div>
+
+        </form>
+    </main>
+</body>
+</html>

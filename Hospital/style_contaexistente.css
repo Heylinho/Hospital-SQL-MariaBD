@@ -1,0 +1,96 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    /* background-color: beige; */
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+html {
+    scroll-behavior: smooth; /* Adiciona rolagem suave para a página inteira */
+}
+
+:root {
+    --cor1: #2C56DC;
+    --cor2: #485686;
+    --cor3: #40475C;
+    --cor4: #415BB1;
+    --cor5: #2C2E33;
+}
+
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: var(--cor2);
+    padding: 1.5rem;
+    border-radius: 10px;
+    color: white;
+}
+
+#primeiro-bloco > input {
+    width: 100%; /* Ajusta a largura para ocupar todo o espaço disponível no contêiner */
+    max-width: 300px; /* Define uma largura máxima */
+    padding: 10px; /* Deixa o campo de entrada mais confortável */
+    margin-bottom: 10px; /* Espaçamento entre os campos */
+    border: 1px solid #ccc; /* Borda leve para os inputs */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho de fonte confortável */
+}
+
+#segundo-bloco {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#segundo-bloco > input , a{
+    width: 40%; /* Para garantir que o botão também tenha o mesmo tamanho */
+    max-width: 300px;
+    padding: 10px;
+    background-color: var(--cor5); /* Cor de fundo do botão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+}
+
+#segundo-bloco > input:hover, a:hover{
+    background-color: var(--cor1);
+}

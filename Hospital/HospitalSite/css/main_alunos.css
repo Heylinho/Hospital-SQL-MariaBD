@@ -1,0 +1,36 @@
+main {
+    width: 100%;
+    height: 100%;
+    padding-top: 60px;
+    overflow: hidden;
+    display: flex;
+    color: var(--cor1);
+}
+
+#conteudo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.aluno {
+    width: 90%;
+    height: auto;
+    border: 3px solid var(--cor1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.aluno img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
